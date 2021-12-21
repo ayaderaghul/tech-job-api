@@ -49,27 +49,27 @@ const jobboards = [
     {
         name: 'startup.jobs',
         address: 'https://startup.jobs/',
-        base: 'https://startup.jobs/',
+        base: 'https://startup.jobs',
         params: {'query': 'data',
             'places[query][0]': 'The Netherlands',
             'places[position]':'52.1326%2C5.29127'}
     },
     {
-        name: 'remote',
+        name: 'remote - dev',
         address: 'https://remote.co/remote-jobs/developer/',
-        base: 'https://remote.co/',
+        base: 'https://remote.co',
         params: {}
     },
     {
-        name: 'remote',
+        name: 'remote - it',
         address: 'https://remote.co/remote-jobs/it',
-        base: 'https://remote.co/',
+        base: 'https://remote.co',
         params: {}
     },
     {
-        name: 'remote',
+        name: 'remote - product',
         address: 'https://remote.co/remote-jobs/product-manager',
-        base: 'https://remote.co/',
+        base: 'https://remote.co',
         params: {}
     }
 ]
